@@ -1,86 +1,86 @@
-body{
-    background-color: violet;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    
-    
-    
+body {
+  background-color: violet;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
 }
-.menu{
-    background-color: blueviolet;
-    padding: 10px;
-    list-style: none;
-    margin:20px auto;
-    text-align: center;
+body h1 {
+  text-align: center;
 }
-.menu li{
-    display: inline-block;
-    text-align: center;
+body h2 {
+  margin: 10px;
 }
-.menu li a{
-    padding: 80px;
-    color: white;
-    text-decoration: none;
+body p {
+  margin: 20px;
+  font-size: 20px;
 }
-.menu li a:hover{
-    color: black;
-    background-color: darkorchid;
-    border-radius: 50%;
-    display: inline-block;
 
+nav .menu {
+  background-color: blueviolet;
+  padding: 10px;
+  list-style: none;
+  margin: 20px auto;
+  text-align: center;
 }
-h1{
-    text-align: center;
+nav .menu li {
+  display: inline-block;
+  text-align: center;
 }
-p{
-    margin: 20px;
-    font-size: 20px;
-    
+nav .menu li a {
+  padding: 80px;
+  color: white;
+  text-decoration: none;
+}
+nav .menu li a:hover {
+  color: black;
+  background-color: darkorchid;
+  border-radius: 50%;
+  display: inline-block;
+}
 
+.pagina2 {
+  background-color: cadetblue;
 }
-h2{
-    margin: 10px;
+.pagina2 .familia {
+  width: 500px;
+  margin: 0px;
 }
-.pagina2{
-    background-color: cadetblue ;
-}
-.familia{
-    width: 500px;
-    margin: 0px;
-}
-.pag3{
-    background-color: darkslateblue;
 
+.pag3 {
+  background-color: darkslateblue;
 }
-.pro{
-    color: white;
+.pag3 .pro {
+  color: white;
 }
-.table{
-    width: 1000px;
-    border: purple solid 2px;
-    padding: 20px;
-    margin: 20px auto;
+.pag3 .table {
+  width: 1000px;
+  border: purple solid 2px;
+  padding: 20px;
+  margin: 20px auto;
 }
-.textproy{
-    color: white;
+.pag3 .textproy {
+  color: white;
 }
-.pag4{
-    background-color: gray;
+
+.pag4 {
+  background-color: gray;
 }
-.subt{
-    text-decoration: underline;
+.pag4 .subt {
+  text-decoration: underline;
 }
-.cont{
-    text-align: left;
-    margin: 20px;
-    color: white;
+
+.pagcont .cont {
+  text-align: left;
+  margin: 20px;
+  color: white;
 }
-.pagcont{
-    background-color: deeppink;
+.pagcont .pagcont {
+  background-color: deeppink;
 }
-.formulario{
-    width: 600px;
-    margin: 20px;
-    border: white solid 2px;
-    padding: 20px;
+.pagcont .formulario {
+  width: 600px;
+  margin: 20px;
+  border: white solid 2px;
+  padding: 20px;
 }
+
+/*# sourceMappingURL=estilo.css.map */
